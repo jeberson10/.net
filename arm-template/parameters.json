@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "name": {
+            "value": "damo-dotnet-devops"
+        },
+        "linuxFxVersion": {
+            "value": "DOTNETCORE|2.1"
+        },
+        "startup": {
+            "value": "dotnet dotnet-devops.dll"
+        },
+        "hostingPlanName": {
+            "value": "S1-damo"
+        },
+        "hostingEnvironment": {
+            "value": ""
+        },
+        "location": {
+            "value": "Australia Southeast"
+        },
+        "sku": {
+            "value": "Standard"
+        },
+        "skuCode": {
+            "value": "S1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "serverFarmResourceGroup": {
+            "value": "damo-dotnet-devops"
+        },
+        "subscriptionId": {
+            "value": "bc202ec2-54ef-4576-b7fb-a961c983398e"
+        }
+    }
+}
